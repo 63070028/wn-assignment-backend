@@ -27,4 +27,6 @@ public class MovieConfiguration {
 
         return  restTemplate;
     }
+
+
 }

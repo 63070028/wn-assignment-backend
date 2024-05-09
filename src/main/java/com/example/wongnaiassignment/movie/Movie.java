@@ -12,6 +12,7 @@ public class Movie {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "name", length = 1024)
     private String name;
 
     @ElementCollection(fetch = FetchType.EAGER)
